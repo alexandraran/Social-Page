@@ -30,19 +30,23 @@ img {
 
 h1 {
   color: #434141;
+  width: 100%;
 }
 
 h2 {
   color: rgb(70, 55, 55);
+  width: 100%;
 }
 
 h3 {
   color: aliceblue;
   font-size: 1em;
+  width: 100%;
+  margin: 2% 0;
 }
 
 a {
-  color: rgb(63, 59, 59);
+  color: rgb(189 177 177);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -57,7 +61,35 @@ form {
   height: 69%;
   border: 2px solid;
   padding: 4%;
-  background-color: rgba(48, 43, 43, 0.658);
+  background-color: rgb(48 43 43 / 23%);
   border-radius: 50px;
   box-shadow: 0 0 20px rgb(58, 57, 59);
+}
+
+.accounts {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 2%;
+  width: 50%;
+  background-color: #7b8a9763;
+  border-radius: 10px;
+  box-shadow: 0 0 10px;
+}
+
+.account {
+  width: 50%;
+}
+input {
+  padding: 2%;
+}
+
+button {
+  padding: 2%;
+  background-color: #514848;
+}
+
+p span {
+  font-weight: 600;
 }
